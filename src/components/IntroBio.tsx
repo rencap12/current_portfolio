@@ -4,19 +4,19 @@ const IntroBio = () => {
   return (
     <div className="p-6 bg-base-200 rounded-lg shadow-lg ">
       {/* Flex container: row-reverse puts image on right */}
-      <div className="flex flex-col-reverse md:flex-row-reverse items-center gap-8">
+      <div className="flex flex-col-reverse md:flex-row-reverse items-center gap-80">
         <div className="avatar">
           <div className="w-64 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
             <img src="IMG_1188.jpg" alt="Reneca Capuno" />
           </div>
         </div>
 
-        <div className="text-center text-left">
+        <div className="text-center text-left md:ml-6">
           <h2 className="text-3xl font-bold mb-2">
             Hi! I’m <span className="text-primary">Reneca Capuno</span> :)
           </h2>
 
-          <div className="flex justify-center md:justify-start gap-6 mb-6">
+          <div className="flex justify-center gap-6 mb-4">
             <a
               href="https://www.linkedin.com/in/renecacapuno/"
               target="_blank"
