@@ -1,0 +1,42 @@
+[
+     {
+    "title": "CASMM - Workspace",
+    "url": "https://github.com/rencap12/Emerald-Project-20-3g-rc",
+    "image": {
+      "alt": "CASMM",
+      "src": "./project_pic/casmm.png"
+    }
+  },
+  {
+    "title": "Nature Nexus",
+    "url": "https://github.com/rencap12/itis-nature-nexus-backend",
+    "image": {
+      "alt": "Nature Nexus",
+      "src": "./project_pic/nature-nexus-logo.png"
+    }
+  },
+  {
+    "title": "Dog Tinder",
+    "url": "https://github.com/rencap12/Dog-Tinder",
+    "image": {
+      "alt": "Dog Tinder",
+      "src": "./project_pic/dogTinder.png"
+    }
+  },
+  {
+    "title": "Whale Hub",
+    "url": "https://github.com/rencap12/WEB102-Whale_Hub",
+    "image": {
+      "alt": "Whale Hub",
+      "src": "./project_pic/whale_pic.jpg"
+    }
+  },
+  {
+    "title": "Tap! Pokémon!",
+    "url": "https://github.com/rencap12/AND101-Pokemon-Display",
+    "image": {
+      "alt": "Tap! Pokémon!",
+      "src": "./project_pic/pokeball_curr.jpg"
+    }
+  }
+]

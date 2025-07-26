@@ -1,0 +1,26 @@
+[
+  {
+    "title": "AVL Tree",
+    "url": "https://github.com/rencap12/Projects/tree/main/project1_resub",
+    "image": {
+      "alt": "AVL Tree",
+      "src": "./project_pic/avl-tree_balnce2.png"
+    }
+  },
+  {
+    "title": "Minesweeper",
+    "url": "https://github.com/rencap12/Projects/tree/main/minesweeper",
+    "image": {
+      "alt": "Minesweeper",
+      "src": "./project_pic/Minesweeper.jpeg"
+    }
+  },
+  {
+    "title": "Page Rank",
+    "url": "https://github.com/rencap12/Projects/tree/main/project2_pageRank",
+    "image": {
+      "alt": "Page Rank",
+      "src": "./project_pic/pagrankpic.jpg"
+    }
+  }
+]
