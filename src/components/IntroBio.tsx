@@ -2,18 +2,16 @@ import React from "react";
 
 const IntroBio = () => {
   return (
-    <div className="w-full bg-base-200 py-10">
-      {/* Inner flex container for image + text */}
-      <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-between gap-8 px-6 md:px-20">
-        {/* Avatar (Image) */}
+    <div className="p-6 bg-base-200 rounded-lg shadow-lg ">
+      {/* Flex container: row-reverse puts image on right */}
+      <div className="flex flex-col-reverse md:flex-row-reverse items-center gap-8">
         <div className="avatar">
           <div className="w-64 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
             <img src="IMG_1188.jpg" alt="Reneca Capuno" />
           </div>
         </div>
 
-        {/* Bio Text */}
-        <div className="text-center md:text-left">
+        <div className="text-center text-left">
           <h2 className="text-3xl font-bold mb-2">
             Hi! I’m <span className="text-primary">Reneca Capuno</span> :)
           </h2>

@@ -12,10 +12,10 @@ function App() {
     <>
     <IntroBio />
 
-    
-    <div className="max-w-[700px] mx-auto mt-10 flex justify-center py-8">
-      <h1>OOP Projects</h1>
-      <div className="carousel w-full">
+    <div className="flex items-center justify-center gap-8 flex-wrap md:flex-nowrap px-4 md:px-20 py-8">
+      <h1 className="text-4xl font-bold text-primary whitespace-nowrap">OOP Projects</h1>
+      
+      <div className="carousel w-full max-w-[700px]">
         {OOPData.map((card, index) => {
           const id = `oop-slide${index + 1}`;
           const prevId = `oop-slide${(index - 1 + OOPData.length) % OOPData.length + 1}`;
@@ -34,25 +34,27 @@ function App() {
     </div>
 
 
-    <div className="max-w-[700px] mx-auto mt-10 flex justify-center py-8">
-      <h1>Full-Stack Projects</h1>
-      <div className="carousel w-full">
-        {WebDevData.map((WDcard, WDindex) => {
-          const WDid = `wd-slide${WDindex + 1}`;
-          const WDprevId = `wd-slide${(WDindex - 1 + WebDevData.length) % WebDevData.length + 1}`;
-          const WDnextId = `wd-slide${(WDindex + 1) % WebDevData.length + 1}`;
-          return (
-            <ProjectCard
-              key={WDindex}
-              id={WDid}
-              prevId={WDprevId}
-              nextId={WDnextId}
-              cardInfo={WDcard}
-            />
-          );
-        })}
-      </div>
+    <div className="flex items-center justify-center gap-8 flex-wrap md:flex-nowrap px-4 md:px-20 py-8">
+        <h1 className="text-4xl font-bold text-primary whitespace-nowrap">Full-Stack Projects</h1>
+        
+        <div className="carousel w-full max-w-[700px]">
+          {WebDevData.map((card, index) => {
+            const id = `wd-slide${index + 1}`;
+            const prevId = `wd-slide${(index - 1 + WebDevData.length) % WebDevData.length + 1}`;
+            const nextId = `wd-slide${(index + 1) % WebDevData.length + 1}`;
+            return (
+              <ProjectCard
+                key={index}
+                id={id}
+                prevId={prevId}
+                nextId={nextId}
+                cardInfo={card}
+              />
+            );
+          })}
+        </div>
     </div>
+
     </>
   );
 }

@@ -19,7 +19,8 @@ const ProjectCard = ({ cardInfo, id, prevId, nextId }: Props) => {
       </div>
       <div className="absolute bottom-5 left-5 text-white bg-black/50 px-4 py-2 rounded">
         <h2 className="text-xl font-bold">{cardInfo.title}</h2>
-        <a href={cardInfo.url} className="underline text-sm">View Project</a>
+        <a href={cardInfo.url} className="underline text-sm" target="_blank"
+              rel="noopener noreferrer">View Project</a>
       </div>
     </div>
   );
