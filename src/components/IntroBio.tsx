@@ -48,7 +48,9 @@ const IntroBio = () => {
           </div>
 
           <p className="text-xl">
-            I’m a New Grad CS from the <strong>University of Florida</strong> and an aspiring <strong>software engineer</strong>!
+            I’m a New Grad CS from the <strong>University of Florida</strong> and an aspiring <strong>software engineer</strong>! 
+            I'm currently working with 💻 Full-Stack development and 📱 Android Application development. Here 
+            you'll find a mix of projects that reflect what I have done.
           </p>
           <p className="text-xl">Feel free to explore my portfolio and let’s connect!</p>
         </div>
