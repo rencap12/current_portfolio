@@ -1,8 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import ProjectCard  from './components/projectCard'
 import IntroBio from './components/IntroBio';
-import type { CardData } from "./types";
 import OOPData from './OOPData.json'
 import WebDevData from './WebDev.json'
 

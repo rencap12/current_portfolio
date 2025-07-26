@@ -1,5 +1,6 @@
 {
   "name": "current-portfolio",
+  "homepage": "https://rencap12.github.io/current_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "tailwind:init": "npx tailwindcss init -p"
+    "tailwind:init": "npx tailwindcss init -p",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "daisyui": "^5.0.47",
@@ -24,6 +27,7 @@
     "eslint": "^9.30.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.3.2",

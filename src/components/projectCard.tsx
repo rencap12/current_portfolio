@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useRef } from "react";
+
 import type { CardData } from "../types";
 
 type Props = {
