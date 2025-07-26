@@ -23,7 +23,7 @@ const IntroBio = () => {
               aria-label="LinkedIn"
               className="w-12 h-12 filter invert brightness-0 transform transition-transform hover:scale-125"
             >
-              <img className="w-12 h-12" alt="LinkedIn" src="/icons/Linkedin.svg" />
+              <img className="w-12 h-12" alt="LinkedIn" src={`${import.meta.env.BASE_URL}icons/Linkedin.svg`}  />
             </a>
 
             <a
@@ -33,7 +33,7 @@ const IntroBio = () => {
               aria-label="Resume"
               className="w-12 h-12 filter invert brightness-0 transform transition-transform hover:scale-125"
             >
-              <img className="w-12 h-12" alt="Resume" src="/icons/resumeIcon.svg" />
+              <img className="w-12 h-12" alt="Resume" src={`${import.meta.env.BASE_URL}icons/resumeIcon.svg`}  />
             </a>
 
             <a
@@ -43,7 +43,7 @@ const IntroBio = () => {
               aria-label="GitHub"
               className="w-12 h-12 filter invert brightness-0 transform transition-transform hover:scale-125"
             >
-              <img className="w-12 h-12" alt="GitHub" src="/icons/Github.svg" />
+              <img className="w-12 h-12" alt="GitHub" src={`${import.meta.env.BASE_URL}icons/Github.svg`}  />
             </a>
           </div>
 
