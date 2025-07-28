@@ -1,5 +1,5 @@
 [
-     {
+  {
     "title": "CASMM - Workspace",
     "url": "https://github.com/rencap12/Emerald-Project-20-3g-rc",
     "image": {
@@ -16,14 +16,6 @@
     }
   },
   {
-    "title": "Dog Tinder",
-    "url": "https://github.com/rencap12/Dog-Tinder",
-    "image": {
-      "alt": "Dog Tinder",
-      "src": "./project_pic/dogTinder.png"
-    }
-  },
-  {
     "title": "Whale Hub",
     "url": "https://github.com/rencap12/WEB102-Whale_Hub",
     "image": {
@@ -32,11 +24,35 @@
     }
   },
   {
-    "title": "Tap! Pokémon!",
-    "url": "https://github.com/rencap12/AND101-Pokemon-Display",
+    "title": "Community Board",
+    "url": "https://github.com/rencap12/WEB102-Community-Board",
     "image": {
-      "alt": "Tap! Pokémon!",
-      "src": "./project_pic/pokeball_curr.jpg"
+      "alt": "Community Board",
+      "src": "./project_pic/community-board.jpg"
+    }
+  },
+  {
+    "title": "Crewmates Creator",
+    "url": "https://github.com/rencap12/WEB102-Crewmates_Creator",
+    "image": {
+      "alt": "Crewmates Creator",
+      "src": "./project_pic/crewmates-creator.jpg"
+    }
+  },
+  {
+    "title": "Unity Grid Plaza",
+    "url": "https://github.com/rencap12/WEB103-UnityGridPlaza",
+    "image": {
+      "alt": "Unity Grid Plaza",
+      "src": "./project_pic/unity-grid-plaza.png"
+    }
+  },
+  {
+    "title": "Car Customizer",
+    "url": "https://github.com/rencap12/WEB103-CarCustomizer",
+    "image": {
+      "alt": "Car Customizer",
+      "src": "./project_pic/car-customizer.png"
     }
   }
 ]
