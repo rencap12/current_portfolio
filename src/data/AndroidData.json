@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Dog Tinder",
+    "url": "https://github.com/rencap12/Dog-Tinder",
+    "image": {
+      "alt": "Dog Tinder",
+      "src": "./project_pic/dogTinder.png"
+    }
+  },
+  {
+    "title": "Tap! Pokémon!",
+    "url": "https://github.com/rencap12/AND101-Pokemon-Display",
+    "image": {
+      "alt": "Tap! Pokémon!",
+      "src": "./project_pic/pokeball_curr.jpg"
+    }
+  },
+  {
+    "title": "Animal Sign Up",
+    "url": "https://github.com/rencap12/AND101-Animal-Sign-Up",
+    "image": {
+      "alt": "Animal Sign Up",
+      "src": "./project_pic/animal-sign-up.jpg"
+    }
+  },
+  {
+    "title": "How Many Bits",
+    "url": "https://github.com/rencap12/AND101-How-Many-Bits",
+    "image": {
+      "alt": "How Many Bits",
+      "src": "./project_pic/how-many-bits.jpg"
+    }
+  }
+]
