@@ -22,5 +22,29 @@
       "alt": "Page Rank",
       "src": "./project_pic/pagrankpic.jpg"
     }
+  },
+  {
+    "title": "Toy Compiler",
+    "url": "https://github.com/rencap12/plc_partner_project",
+    "image": {
+      "alt": "Toy Compiler",
+      "src": "./project_pic/toy-compiler.jpg"
+    }
+  },
+  {
+    "title": "Pac-Man Game",
+    "url": "https://github.com/rencap12/Projects/tree/main/project%204%20rcapuno/project%204",
+    "image": {
+      "alt": "Pac-Man Game",
+      "src": "./project_pic/pacman.jpg"
+    }
+  },
+  {
+    "title": "Memory Manager",
+    "url": "https://github.com/rencap12/Projects/tree/main/MemoryManager",
+    "image": {
+      "alt": "Memory Manager",
+      "src": "./project_pic/memory-manager.jpg"
+    }
   }
 ]
