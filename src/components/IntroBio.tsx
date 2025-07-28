@@ -27,7 +27,7 @@ const IntroBio = () => {
             </a>
 
             <a
-              href="/Reneca_Capuno_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Reneca_Capuno_Resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Resume"
